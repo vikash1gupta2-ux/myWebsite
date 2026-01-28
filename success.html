@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SKI Plastoware Story</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#0f172a;
+}
+
+.page{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.frame{
+    background:#7c6cf4;
+    color:white;
+    width:80%;
+    max-width:750px;
+    padding:40px;
+    border-radius:12px;
+    box-shadow:0 0 20px rgba(0,0,0,0.4);
+}
+
+h1{
+    font-size:32px;
+    margin-bottom:20px;
+    text-align:center;
+}
+
+p{
+    line-height:1.7;
+    margin-bottom:15px;
+}
+
+.highlight{
+    color:#facc15;
+    font-weight:bold;
+}
+
+button{
+    margin-top:30px;
+    padding:12px 35px;
+    font-size:16px;
+    border:none;
+    border-radius:6px;
+    background:#facc15;
+    color:#1e3a8a;
+    cursor:pointer;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+button:hover{
+    background:#fde047;
+}
+
+.nav{
+    display:flex;
+    justify-content:space-between;
+    margin-top:30px;
+}
+
+button:disabled{
+    background:#9ca3af;
+    color:#374151;
+    cursor:not-allowed;
+}
+
+#page2,#page3,#page4{
+    display:none;
+}
+</style>
+</head>
+
+<body>
+
+<!-- PAGE 1 -->
+<div class="page" id="page1">
+  <div class="frame">
+<h1>Our Journey <span style="float:right; font-size:16px;">Page 1 of 4</span></h1>
+
+<p>
+Our company, <span class="highlight">SKI Plastoware</span>, started working from 29th July, 2025.
+From that day, it has been a success.
+</p>
+
+<p>
+Our sales have been a roller coaster.
+They were not constant.
+Sometimes they decreased.
+Sometimes they increased.
+</p>
+
+<p>
+But we continued working hard.
+We continued putting in effort.
+</p>
+
+<p>
+And today, we are quite a successful company.
+</p>
+
+<p>
+Do you know what else happened on 29th July, 2025?
+</p>
+
+<p>
+In Chandigarh, 205 residents got Municipal Corporation challans for not segregating waste.
+</p>
+
+<p>
+Pune doubled solar generation in a year but failed to improve air quality.
+</p>
+
+<p>
+You must be thinking that none of these are related to you.
+</p>
+
+<p class="highlight">
+So let's talk about what is related to you.
+</p>
+
+<div class="nav">
+<button disabled>← Back</button>
+<button onclick="nextPage()">Next →</button>
+</div>
+  </div>
+</div>
+
+<!-- PAGE 2 -->
+<div class="page" id="page2">
+  <div class="frame">
+<h1>That Sweet Encounter <span style="float:right; font-size:16px;">Page 2 of 4</span></h1>
+
+<p>
+A random person.
+Unaware of what was going to happen next in his life.
+</p>
+
+<p>
+He was using a website called <span class="highlight">ChitChat</span>.
+</p>
+
+<p>
+A person came.
+He said: <span class="highlight">M.</span>
+</p>
+
+<p>
+The random person skipped as fast as he could.
+Honestly, that day he was faster than Vande Bharat as well.
+</p>
+
+<p>
+Another person came.
+</p>
+
+<p>
+And dropped a <span class="highlight">F19 nuclear weapon.</span>
+</p>
+
+<p>
+BOOM.
+</p>
+
+<p>
+Fun fact:
+More people do not die from this nuclear weapon every year compared to Little Boy and Fat Man combined.
+</p>
+
+<p>
+A F!? In this economy!?
+<br>
+Random person: Haan toh?
+<br>
+I am not aware of the F19's reaction, but the protagonist was so happy that he was talking to a girl after 32 years of his life (he's 19), that he smiled a lot.
+</p>
+
+<p>
+To an extent that his parents asked him to go to sleep.
+That means he had to leave that F19!?
+</p>
+
+<p>
+What do you think the protagonist did?
+<br>
+What happened next?
+<br>
+Where are these two?
+<br>
+Is it a cliffhanger?
+</p>
+
+<p>
+Wait... NO!
+<br><br>
+I guess you know it :)
+<br>
+And the protagonist is not limited to any books.
+He's right in front of you.
+Yeah, it's me.
+</p>
+
+<div class="nav">
+<button onclick="goBack()">← Back</button>
+<button onclick="nextPage2()">Next →</button>
+</div>
+  </div>
+</div>
+
+<!-- PAGE 3 -->
+<div class="page" id="page3">
+  <div class="frame">
+<h1>Six Months Later <span style="float:right; font-size:16px;">Page 3 of 4</span></h1>
+
+<p>
+Its been 188 days since we know each other; almost 2 months; OH SORRY, 6 haan 6 months.
+</p>
+
+<p>
+It was such a rooler coasting ride; That good morning streak?
+</p>
+
+<p>
+I blocked you; haan you blocked me first. KHUSH?
+</p>
+
+<p>
+Phir later I had existential crisis and I blocked you again, But you being a really good gentleman, texted me, even called me; and that all sorted, it was not that difficult HUH. Thanks to me ofc
+</p>
+
+<p>
+30 August? You remember that day? Namrata call-bombed you and than finally busted my plan by calling at my home lol; sweet SWEET memories. Haha.
+</p>
+
+<div class="nav">
+<button onclick="goBack3()">← Back</button>
+<button onclick="nextPage3()">Next →</button>
+</div>
+  </div>
+</div>
+
+<!-- PAGE 4 -->
+<div class="page" id="page4">
+  <div class="frame">
+<h1>Will we still be friends? <span style="float:right; font-size:16px;">Page 4 of 4</span></h1>
+
+<p>
+Do you remember the first week after we met?
+It went pretty good.
+I sent you some messages, which ultimately got my ass blocked.
+</p>
+
+<p>
+What will you do if I repeat that same thing, but right NOW?
+</p>
+
+<p>
+You know what, Saumya;
+You are the kind of girl I imagine lying next to on green grass and staring at the blue sky, doing nothing.
+</p>
+
+<p>
+Your voice, or even your presence, feels like cold water at 3 AM.
+Heavenly.
+</p>
+
+<p>
+You are the kind of girl I always admired.
+I always respected.
+And I respect you for what you had been through in your 12th class.
+</p>
+
+<p>
+You are my role model.
+I look up to you as a role model, a teacher, a guru, a friend, a motivator...
+Not a "the".
+You are THE "THE".
+</p>
+
+<p>
+Do you know what Saumya stands for?
+No one must have told you this.
+Let me tell you today.
+</p>
+
+<p>
+Super Human<br>
+Absolute Fun<br>
+Ultra Kind<br>
+Most fun to be around<br>
+Yapper<br>
+Amazing
+</p>
+
+<p>
+If we go like this, your name is pretty short.
+</p>
+
+<p>
+The way you smile?
+It's just so heavenly.
+</p>
+
+<p>
+I can look into those eyes all day, non-stop.
+</p>
+
+<p>
+I always wanted to tell you this.
+Again...
+Do you feel the same I feel?
+</p>
+
+<div class="nav">
+<button onclick="handleYes()">YES</button>
+<button onclick="handleNo()">NO</button>
+</div>
+
+<!-- POPUP MODAL -->
+<div id="popup" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.7); justify-content:center; align-items:center;">
+  <div style="background:#7c6cf4; padding:25px; border-radius:10px; width:80%; max-width:400px; text-align:center; position:relative;">
+<span onclick="closePopup()" style="position:absolute; right:10px; top:5px; cursor:pointer; font-size:20px;">✖</span>
+<p id="popupText"></p>
+<img id="popupImg" src="broken.jpg" style="width:100%; border-radius:8px; margin:10px 0;">
+<div class="nav">
+<button onclick="prevImg()">←</button>
+<button onclick="nextImg()">→</button>
+</div>
+  </div>
+</div>
+
+  </div>
+</div>
+
+<script>
+let noCount = 0;
+let yesCount = 0;
+
+// IMAGE SETS
+let yesImages = ["https://i.imgur.com/TRVDs8C.jpeg",
+"https://i.imgur.com/eQWt9cc.jpeg",
+"https://i.imgur.com/LHK8Qzh.jpeg",
+"https://i.imgur.com/AWfpu0Q.jpeg",
+"https://i.imgur.com/mSf0n7I.jpeg",
+"https://i.imgur.com/D4KnYLp.jpeg",
+"https://i.imgur.com/0K8QL7p.jpeg",
+"https://i.imgur.com/zQDxGFS.jpeg"
+];
+let noImages = [
+ "https://static0.colliderimages.com/wordpress/wp-content/uploads/2025/03/bob-odenkirk-as-jimmy-screaming-in-jmm-from-better-call-saul.jpg?q=70&fit=crop&w=825&dpr=1",
+ "https://i.imgur.com/hvtir3h.jpeg",
+ "https://i.imgur.com/FPcehO0.jpeg",
+ "https://i.imgur.com/AI2A5JM.jpeg",
+ "https://i.imgur.com/iWur6Uy.jpeg",
+ "https://i.imgur.com/0Ecmdhg.jpeg",
+ "https://i.imgur.com/7kTv6E4.jpeg",
+ "https://i.imgur.com/b87wwyb.jpeg",
+ "https://i.imgur.com/c11nKFy.jpeg",
+ "https://i.imgur.com/8x1kgck.jpeg",
+ "https://i.ibb.co/3mPZTLCs/cf69ad8684e062303dc0f70dc315510b.jpg"
+];
+
+let imgIndex = 0;
+let currentImages = noImages; 
+
+function openPopup(text, type="no"){
+  document.getElementById("popupText").innerText = text;
+  document.getElementById("popup").style.display = "flex";
+  imgIndex = 0;
+
+  currentImages = (type==="yes") ? yesImages : noImages;
+  document.getElementById("popupImg").src = currentImages[imgIndex];
+}
+
+function closePopup(){
+  document.getElementById("popup").style.display = "none";
+}
+
+function nextImg(){
+  imgIndex = (imgIndex + 1) % currentImages.length;
+  document.getElementById("popupImg").src = currentImages[imgIndex];
+}
+
+function prevImg(){
+  imgIndex = (imgIndex - 1 + currentImages.length) % currentImages.length;
+  document.getElementById("popupImg").src = currentImages[imgIndex];
+}
+
+// NAVIGATION
+function nextPage(){
+    document.getElementById("page1").style.display="none";
+    document.getElementById("page2").style.display="flex";
+}
+function nextPage2(){
+    document.getElementById("page2").style.display="none";
+    document.getElementById("page3").style.display="flex";
+}
+function goBack(){
+    document.getElementById("page2").style.display="none";
+    document.getElementById("page1").style.display="flex";
+}
+function nextPage3(){
+    document.getElementById("page3").style.display="none";
+    document.getElementById("page4").style.display="flex";
+}
+function goBack3(){
+    document.getElementById("page3").style.display="none";
+    document.getElementById("page2").style.display="flex";
+}
+
+// YES / NO LOGIC
+function handleNo(){
+  noCount++;
+  if(noCount==1) openPopup("You are supposed to say YES.","no");
+  else if(noCount==2) openPopup("Please say YES.","no");
+  else if(noCount==3) openPopup("ANGRY ME: YOU ARE SUPPOSED TO SAY YES!","no");
+  else openPopup("Just dont block me, we are still friends, and you are my really good friend :) and I will not try again PAKKA NA","no");
+}
+
+function handleYes(){
+  yesCount++;
+  openPopup("Thanks for choosing me. Just for confirming that it is really YES, put your hand on my hand. If it's a NO, then just turn off the screen and ask me to go, and I will pretend as if nothing happened. Thank you. And sorry if I made it awkward.","yes");
+}
+</script>
+
+</body>
+</html>
